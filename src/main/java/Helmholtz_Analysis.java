@@ -1,9 +1,13 @@
-import ij.*;
-import ij.plugin.filter.*;
-import ij.process.*;
-import ij.gui.*;
-import java.awt.*;
-import java.util.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.ImageStack;
+import ij.Prefs;
+import ij.WindowManager;
+import ij.gui.GenericDialog;
+import ij.plugin.filter.GaussianBlur;
+import ij.plugin.filter.PlugInFilter;
+import ij.process.FloatProcessor;
+import ij.process.ImageProcessor;
 
 /** This plugin uses the Helmholtz equation to estimage the wavelength of a harmonic image.
 	Bob Dougherty 8/27/2005.  Formerly named Muscle Tone.
