@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>Helmholtz_Analysis</artifactId>
-	<version>2.0.2-SNAPSHOT</version>
+	<version>2.0.2</version>
 
 	<name>Helmholtz Analysis</name>
 	<description>Helmholtz Analysis plugin for Fiji.</description>
@@ -67,7 +67,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Helmholtz_Analysis</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Helmholtz_Analysis</developerConnection>
-		<tag>HEAD</tag>
+		<tag>Helmholtz_Analysis-2.0.2</tag>
 		<url>https://github.com/fiji/Helmholtz_Analysis</url>
 	</scm>
 	<issueManagement>
